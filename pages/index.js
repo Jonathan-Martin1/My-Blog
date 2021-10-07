@@ -34,7 +34,7 @@ export default function Home({ posts }) {
 								</Link>
 								<span>{session.user.name}</span>
 								{session.user.image && (
-									<img src={session.user.image} width={100} height={150} />
+									<img src={session.user.image} width={50} height={200} />
 								)}
 								<button className='btn' onClick={signOut}>
 									Sign Out
